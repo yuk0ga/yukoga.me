@@ -1,0 +1,7 @@
+<div class="card">
+  <a href="{{ .Permalink }}">
+    <p class="lastmod">{{ .Lastmod.Format ( .Site.Params.dateformat | default "January 2, 2006") }}</p>
+    <h1 class="posttitle">{{ .Title }}</h1>
+    <!-- <p class="postsummary">{{ .Summary }}</p> -->
+  </a>
+</div>

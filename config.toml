@@ -1,0 +1,54 @@
+theme = "koga"
+baseURL = "https://yukoga.me"
+languageCode = "en-us"
+title = "Yu Koga"
+MetaDataFormat = "toml"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    archive = "archives"
+
+[params]
+    emailHash = "44aaf4965b90c2923223579048f52351"
+    fullName = "Yu Koga"
+    themeColor = "#4ebf4a"
+
+    [params.social]
+      Github = "yuk0ga"
+      Facebook = "ukoooga"
+      Twitter = "yuk0ga"
+      Instagram = "yuk0ga"
+
+[menu]
+
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "post"
+    name = "Posts"
+    url = "/post/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "archives"
+    name = "Archives"
+    url = "/archives/"
+    weight = 5

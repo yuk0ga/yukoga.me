@@ -1,0 +1,10 @@
+name = "koga"
+license = "MIT"
+licenselink = "https://github.com/yuk0ga/koga/blob/master/LICENSE.md"
+description = "simple theme made for experimenting with hugo"
+tags = ["minimal", "beginner"]
+min_version = "0.32.1"
+
+[author]
+  name = "Yu Koga"
+  homepage = "https://yuk0ga.github.io"

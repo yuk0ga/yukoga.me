@@ -1,0 +1,12 @@
+{{ define "main" }}
+
+	<div class="list-title">
+		<h1>{{ .Title }}</h1>
+	</div>
+	{{ range .Data.Pages }}
+		{{ if eq .Type "post" }}
+			{{ partial "li.html" . }}
+		{{ end }}
+	{{ end }}
+
+{{ end }}

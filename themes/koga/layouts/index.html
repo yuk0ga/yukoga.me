@@ -1,0 +1,48 @@
+{{ define "nav" }}
+  <div></div>
+{{ end }}
+
+{{ define "main" }}
+  <div class="hero">
+    {{ partial "nav.html" . }}
+    <div class="hero-name">
+      <h1>{{ .Site.Params.FullName }}</h1>
+      {{ partial "social.html" . }}
+    </div>
+    <div class="go-bio">
+      <a href="#bio"><i class="icon-down"></i></a>
+    </div>
+  </div>
+
+  <div id="bio" class="bio">
+    <div class="bio-contents">
+      <img class="profile-pic" src="https://www.gravatar.com/avatar/{{ .Site.Params.EmailHash }}?s=300" alt="">
+      <h1>{{ with .Site.GetPage "page" "about.md" }}{{ .Title }}{{ end }}</h1>
+      <p>{{ with .Site.GetPage "page" "about.md" }}{{ .Content }}{{ end }}</p>
+    </div>
+    <div class="go-projects">
+      <a href="#projects"><i class="icon-down"></i></a>
+    </div>
+  </div>
+
+  <div id="projects" class="projects">
+    <h1>Projects</h1>
+    <div class="projects-contents">
+      <div class="grid-container">
+        {{ range sort .Data.Pages }}
+        	{{ if eq .Type "project" }}
+          <div class="grid-item">
+            <a href="https://github.com/{{ .Site.Params.Social.Github }}/{{ .Params.reponame }}" target="_blank">
+              {{ with .Params.Image }}
+              <img src="{{ . }}" alt="">
+              {{ end }}
+              <h1>{{ .Params.Name }}</h1>
+              <p>{{ .Params.Description }}</p>
+            </a>
+          </div>
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+{{ end }}
