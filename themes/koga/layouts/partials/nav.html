@@ -1,9 +1,0 @@
-<div id="navbar">
-  <ul class="navbar">
-  {{ if .Site.Menus.main }}
-    {{ range sort .Site.Menus.main }}
-    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-    {{ end }}
-  {{ end }}
-  </ul>
-</div>

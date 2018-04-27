@@ -15,6 +15,7 @@ pygmentsUseClasses = true
     emailHash = "44aaf4965b90c2923223579048f52351"
     fullName = "Yu Koga"
     themeColor = "#4ebf4a"
+    favicon = "images/favicon.png"
 
     [params.social]
       Github = "yuk0ga"
