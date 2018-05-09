@@ -48,7 +48,7 @@ archives = ["2018/05"]
 ## いざ実食
 大事なのは味です。
 メープルシロップをかけていただきます。
-{{< figure class="img-80" src="../../images/pancake-eat.jpg" title="見た目が汚いのは気にしない（２度目）">}}
+{{< figure class="img-80" src="../../images/pancake-eat.jpg" title="見た目が汚いのは気にしない（２回目）">}}
 
 うん、普通にうまい。
 星３くらい。
