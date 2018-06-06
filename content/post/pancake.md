@@ -4,7 +4,7 @@ date = 2018-05-09T22:50:15+10:00
 Description = "普通に作ろうとすると結構めんどいよね"
 image = "pancakemix.jpg"
 tags = ["food"]
-categories = ["brisbane", "cooking"]
+categories = ["brisbane", "作ってみた", "Japanese"]
 archives = ["2018/05"]
 
 +++

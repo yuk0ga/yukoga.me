@@ -4,7 +4,7 @@ date = 2018-04-26T21:33:18+10:00
 Description = ""
 toc = false
 tags = []
-categories = ["uncategorized"]
+categories = ["uncategorized", "English"]
 archives = ["2018/04"]
 draft = true
 

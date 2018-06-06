@@ -5,7 +5,7 @@ Description = "もはや第二の故郷です。"
 image = "sukiyaki.jpg"
 toc = false
 tags = ["japanese", "food"]
-categories = ["brisbane"]
+categories = ["brisbane", "Japanese"]
 archives = ["2018/04"]
 
 +++
