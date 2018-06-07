@@ -3,8 +3,8 @@ title = "Introducing Koga (Hugo Theme)"
 date = 2018-04-26T21:33:53+10:00
 Description = ""
 image = "hugo-logo.png"
-tags = ["hugo"]
-categories = ["koga-theme", "English"]
+tags = ["hugo", "koga-theme"]
+categories = ["Development", "English"]
 archives = ["2018/04"]
 
 +++
