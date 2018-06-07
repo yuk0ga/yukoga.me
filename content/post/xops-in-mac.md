@@ -2,7 +2,7 @@
 title = "VMもBootCampも使わずにMacでxopsを動かす方法"
 date = 2018-06-07T03:59:26+10:00
 Description = "Macユーザーのみなさんに朗報です。"
-image = ""
+image = "xopsmac.jpg"
 tags = ["wine", "osx", "xops"]
 categories = ["Japanese", "Development"]
 archives = ["2018/06"]
