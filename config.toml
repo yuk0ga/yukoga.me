@@ -1,5 +1,5 @@
 theme = "koga"
-baseURL = "https://yuk0ga.github.io/"
+baseURL = "https://yukoga.com/"
 languageCode = "en-us"
 title = "Yu Koga"
 MetaDataFormat = "toml"
