@@ -2,4 +2,4 @@
 title = "Hi, my name is Yu"
 +++
 
-Born and raised in Japan, currently in Brisbane, Australia studying Computer Science at Queensland University of Technology. I have some experience in Java, Python, JavaScript, and HTML/CSS. Interested in Web & Mobile Applications, Machine Learning and AI.
+21yo Japanese studying Computer Science at Queensland University of Technology. Solid experience in building backends with Spring. Interested in WebGL, Machine Learning, and Web Application Development in general. Check out [what I'm working on](https://yukoga.com/three) these days.
